@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Album Web App</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <style>
+    /* Additional styles specific to this HTML file, if needed */
+  </style>
+</head>
+<body>
+  <section class="section">
+    <div class="container">
+      <h1 class="title">Music Albums</h1>
+      <div id="album-list"></div>
+      <hr>
+      <h2 class="subtitle">Create Album</h2>
+      <form id="create-album-form">
+        <div class="field">
+          <label class="label">Album Title</label>
+          <div class="control">
+            <input class="input" type="text" id="album-title" placeholder="Enter album title" required>
+          </div>
+        </div>
+        <div class="field">
+          <label class="label">Album Photo URL</label>
+          <div class="control">
+            <input class="input" type="text" id="album-photo-url" placeholder="Enter album photo URL" required>
+          </div>
+        </div>
+        <div class="field">
+          <div class="control">
+            <button class="button is-primary" type="submit">Create</button>
+          </div>
+        </div>
+        <!-- Display error message here -->
+      </form>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>&copy; 2023 Music Album Web App</p>
+  </footer>
+
+  <script src="js/index.js"></script>
+</body>
+</html>

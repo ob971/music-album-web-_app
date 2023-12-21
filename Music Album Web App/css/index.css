@@ -1,0 +1,37 @@
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color:yellowgreen;
+}
+
+.subtitle {
+  color:greenyellow;
+}
+
+.form-error {
+  color: #ff3860;
+  margin-top: 5px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
